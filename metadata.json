@@ -1,0 +1,5 @@
+{
+  "name": "RowingIntervals - 划船间歇计时器",
+  "description": "专业的间歇性划船训练助手，支持自定义冲刺与恢复时间，提供精准的声音倒计时提醒。",
+  "requestFramePermissions": []
+}
