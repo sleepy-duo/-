@@ -1,11 +1,15 @@
+
 {
   "name": "Rowing Intervals",
   "short_name": "Rowing",
-  "start_url": ".",
+  "id": "rowing-intervals-app",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#020617",
   "theme_color": "#020617",
   "description": "专业的划船间歇计时器",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6a3.png",
