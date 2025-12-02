@@ -1,13 +1,12 @@
 
-const CACHE_NAME = 'rowing-timer-v3';
+const CACHE_NAME = 'rowing-timer-v4';
 
 // 需要预缓存的关键资源
+// 注意：移除了外部 CDN 图片，确保完全依赖本地构建资源或网络回退
 const URLS_TO_CACHE = [
   './',
   './index.html',
-  './manifest.json',
-  // 缓存图标以保证离线时 App 图标正常显示 (如果支持)
-  'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6a3.png'
+  './manifest.json'
 ];
 
 // 安装阶段：预缓存核心资源
