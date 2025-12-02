@@ -1,12 +1,11 @@
 
-const CACHE_NAME = 'rowing-timer-v2';
+const CACHE_NAME = 'rowing-timer-v3';
 
 // 需要预缓存的关键资源
 const URLS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
-  'https://cdn.tailwindcss.com',
   // 缓存图标以保证离线时 App 图标正常显示 (如果支持)
   'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6a3.png'
 ];
